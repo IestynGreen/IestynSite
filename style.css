@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("/images/bckgrnd.jpg");
+    background-repeat: no-repeat;
+    background-size: 1920px 1080px;
+}
+
+
+
+
+/* the navigation bar */
+.navbar{
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; /*set navbar to fixed pos */
+    top: 0; /*position the navbar at the top of the page */
+    width: 100%; /* Full width */
+
+}
+
+/* Links inside the navbar */
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 40px;
+    text-decoration: none;
+
+}
+
+/* change background on mouse-over */
+.navbar li a:hover {
+    background: #ddd;
+    color: black;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent
+}
+ul.horizontal{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+
+
+/* Main content */
+.main{
+    padding: 30px;
+    height: 1500px;
+    margin-top: 30px; /*Add a top margin to avoid content overlay */
+}
+
+#hope_logo{
+    float: left;
+    margin: 25px -1000px 0 200px;
+
+}
+
+
+
+#Photo {
+    float: left;
+    margin: 25px 15px 0 0;
+
+}
+
+#AboutMe{
+    text-decoration: underline;
+    text-align: left;
+    font-size: 20px;
+}
+
+#Education{
+    text-decoration: underline;
+    text-align: center;
+    font-size: 40px;
+}
+
+#University{
+    text-decoration: underline;
+    text-align: center;
+}
+
+#Center{
+    text-align: center;
+}
+
+
+
+#College{
+    text-decoration: underline;
+    text-align: center;
+}
+
+
+
+
+
