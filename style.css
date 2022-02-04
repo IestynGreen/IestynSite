@@ -1,9 +1,6 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url("/images/bckgrnd.jpg");
-    background-repeat: no-repeat;
-    background-size: 1920px 1080px;
 }
 
 
@@ -96,6 +93,14 @@ ul.horizontal{
 #College{
     text-decoration: underline;
     text-align: center;
+}
+
+#FilmSociety{
+
+    text-decoration: underline;
+    text-align: center;
+    font-size: 40px;
+
 }
 
 
