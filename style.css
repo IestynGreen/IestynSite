@@ -55,29 +55,29 @@ ul.horizontal{
     margin-top: 30px; /*Add a top margin to avoid content overlay */
 }
 
+#landing{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
 .arrowBox {
     background-image: url("./images/arrow.png");
     position: absolute;
-    text-align: center;
-    width: 100%;
-    height: 100vh;
+    width: 15%;
+    height: 25%;
     background-attachment: fixed;
-    background-position: bottom;
+    background-position: 50% 90%;
     background-repeat: no-repeat;
-    background-size: 150px 150px;
+    bottom: 3%;
     animation: jumpUpDown 1s infinite alternate;
-}
-.parallax {
-    background-image: url("./images/Sion.jpg");
 
-    width: 100%;
-    height: 100vh;
-
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
+
 
 
 #hope_logo{
@@ -112,6 +112,10 @@ ul.horizontal{
 }
 
 #Center{
+    text-align: center;
+}
+
+#FilmMain {
     text-align: center;
 }
 
