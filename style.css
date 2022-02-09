@@ -87,11 +87,18 @@ ul.horizontal{
     padding: 0%;
 
 }
+#OmarPoint{
+    float: left;
+
+    margin: 525px -1000px 0 100px;
+    padding: 0%;
+}
+
 
 #cavc_logo{
 
     float: left;
-    margin: 450px -2000px 0 1000px;
+    margin: 350px -2000px 0 1000px;
     padding: 0%;
 
 }
@@ -193,10 +200,10 @@ ul.horizontal{
 }
 
 .EducationParallax {
-    background-image: url("./images/Sion.jpg");
+    background-image: url("./images/PKBanner.png");
 
     width: 100%;
-    height: 65vh;
+    height: 80vh;
 
     background-attachment: fixed;
     background-position: center;
