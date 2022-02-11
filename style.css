@@ -10,7 +10,7 @@ body {
 .navbar{
     overflow: hidden;
     background-color: #333;
-    position: fixed; /*set navbar to fixed pos */
+    position: absolute; /*set navbar to fixed pos */
     top: 0; /*position the navbar at the top of the page */
     width: 100%; /* Full width */
 
@@ -105,6 +105,7 @@ ul.horizontal{
 
 
 
+
 #Portrait {
     float: left;
     margin: 25px 15px 0 0;
@@ -128,7 +129,7 @@ ul.horizontal{
     text-align: center;
 }
 
-#Center{
+.Center{
     text-align: center;
 }
 
@@ -211,7 +212,98 @@ ul.horizontal{
     background-size: cover;
 }
 
+.container {
+    position: relative;
+    width: 50px;
+    margin: 0 0 0 670px;
+}
+.JavaContainer {
+     position: relative;
+     width: 50px;
+     margin: -50px 0 0 735px;
+}
+.CppContainer {
+    position: relative;
+    width: 50px;
+    margin: -50px 0 0 800px;
+}
+.VBContainer {
+    position: relative;
+    width: 50px;
+    margin: 10px 0 0 767px;
+}
+.SQLContainer {
+    position: relative;
+    width: 50px;
+    margin: -50px 0 0 702px;
+}
 
+.image{
+    opacity: 1;
+    display: block;
+    width: 50px;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.container:hover .image{
+    opacity: 0.3;
+}
+
+.container:hover .middle{
+    opacity: 1;
+}
+
+.JavaContainer:hover .image{
+    opacity: 0.3;
+}
+
+.JavaContainer:hover .middle{
+    opacity: 1;
+}
+
+.CppContainer:hover .image{
+    opacity: 0.3;
+}
+
+.CppContainer:hover .middle{
+    opacity: 1;
+}
+
+.VBContainer:hover .image{
+    opacity: 0.3;
+}
+
+.VBContainer:hover .middle{
+    opacity: 1;
+}
+
+.SQLContainer:hover .image{
+    opacity: 0.3;
+}
+
+.SQLContainer:hover .middle{
+    opacity: 1;
+}
+
+.text{
+    background-color: #04AA6D;
+    color: white;
+    font-size: 10px;
+    padding: 5px 20px;
+}
 
 
 
