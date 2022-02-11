@@ -103,6 +103,24 @@ ul.horizontal{
 
 }
 
+#FirstDay{
+
+    float: right;
+    padding: 2%;
+}
+
+#Members{
+    padding: 2%;
+    float: left;
+
+}
+
+.Caption{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 13px;
+}
+
 
 
 
@@ -303,6 +321,18 @@ ul.horizontal{
     color: white;
     font-size: 10px;
     padding: 5px 20px;
+}
+
+.instagram{
+    position: relative;
+    width: 50px;
+    margin: 0 0 0 740px;
+}
+
+.facebook{
+    position: absolute;
+    width: 50px;
+    margin: -38px 0 0 695px;
 }
 
 
