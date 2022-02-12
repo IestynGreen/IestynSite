@@ -121,7 +121,7 @@ ul.horizontal{
 
     float: right;
     position: absolute;
-    margin: 400px 100px 0 1000px;
+    margin: 400px 0 0 1200px;
     padding: 0%;
 
 }
@@ -262,27 +262,27 @@ ul.horizontal{
 .container {
     position: relative;
     width: 50px;
-    margin: 0 0 0 670px;
+    margin: 0 0 0 920px;
 }
 .JavaContainer {
      position: relative;
-     width: 50px;
-     margin: -50px 0 0 735px;
+
+     margin: -50px 0 0 985px;
 }
 .CppContainer {
     position: relative;
     width: 50px;
-    margin: -50px 0 0 800px;
+    margin: -50px 0 0 1050px;
 }
 .VBContainer {
     position: relative;
     width: 50px;
-    margin: 10px 0 0 767px;
+    margin: 10px 0 0 1017px;
 }
 .SQLContainer {
     position: relative;
     width: 50px;
-    margin: -50px 0 0 702px;
+    margin: -50px 0 0 952px;
 }
 
 .image{
