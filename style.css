@@ -87,10 +87,31 @@ ul.horizontal{
     padding: 0%;
 
 }
+
+#SugarnDice{
+    float: left;
+
+    margin: 125px -1000px 0 100px;
+    padding: 0%;
+
+}
 #OmarPoint{
     float: left;
 
     margin: 525px -1000px 0 100px;
+    padding: 0%;
+}
+
+#Castlefest{
+    float: left;
+    margin: 1000px -3000px 0 1100px;
+    padding: 0%;
+}
+
+#Tenovus{
+    float: left;
+
+    margin:825px -1000px 0 100px;
     padding: 0%;
 }
 
@@ -101,6 +122,11 @@ ul.horizontal{
     margin: 350px -2000px 0 1000px;
     padding: 0%;
 
+}
+#css {
+    float: left;
+    margin: 500px -3000px 0 1100px;
+    padding: 0%;
 }
 
 #FirstDay{
