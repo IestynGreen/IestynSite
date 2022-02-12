@@ -103,8 +103,9 @@ ul.horizontal{
 }
 
 #Castlefest{
-    float: left;
-    margin: 1000px -3000px 0 1100px;
+    float: right;
+    margin: 1000px 100px 0 1100px;
+    position: absolute;
     padding: 0%;
 }
 
@@ -118,14 +119,16 @@ ul.horizontal{
 
 #cavc_logo{
 
-    float: left;
-    margin: 350px -2000px 0 1000px;
+    float: right;
+    position: absolute;
+    margin: 400px 100px 0 1000px;
     padding: 0%;
 
 }
 #css {
-    float: left;
-    margin: 500px -3000px 0 1100px;
+    float: right;
+    margin: 500px 100px 0 1100px;
+    position: absolute;
     padding: 0%;
 }
 
