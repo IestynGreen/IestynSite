@@ -2,10 +2,6 @@ body {
     margin: 0;
     padding: 0;
 }
-
-
-
-
 /* the navigation bar */
 .navbar{
     overflow: hidden;
@@ -13,9 +9,7 @@ body {
     position: absolute; /*set navbar to fixed pos */
     top: 0; /*position the navbar at the top of the page */
     width: 100%; /* Full width */
-
 }
-
 /* Links inside the navbar */
 .navbar a {
     float: left;
@@ -26,7 +20,6 @@ body {
     text-decoration: none;
 
 }
-
 /* change background on mouse-over */
 .navbar li a:hover {
     background: #ddd;
@@ -41,14 +34,8 @@ ul.horizontal{
     margin: 0;
     padding: 0;
     overflow: hidden;
-
 }
-
-
-
 /* Main content */
-
-
 .main{
     padding: 30px;
     height: 1500px;
@@ -75,65 +62,46 @@ ul.horizontal{
     background-repeat: no-repeat;
     bottom: 3%;
     animation: jumpUpDown 1s infinite alternate;
-
 }
-
-
 
 #hope_logo{
     float: left;
-
     margin: 125px -1000px 0 200px;
-    padding: 0%;
-
 }
 
 #SugarnDice{
     float: left;
-
     margin: 125px -1000px 0 100px;
-    padding: 0%;
-
 }
 #OmarPoint{
     float: left;
-
     margin: 525px -1000px 0 100px;
-    padding: 0%;
 }
 
 #Castlefest{
     float: right;
     margin: 1000px 100px 0 1500px;
     position: absolute;
-    padding: 0%;
 }
 
 #Tenovus{
     float: left;
-
     margin:825px -1000px 0 100px;
-    padding: 0%;
 }
 
 
 #cavc_logo{
-
     float: right;
     position: absolute;
     margin: 400px 0 0 1200px;
-    padding: 0%;
-
 }
 #css {
     float: right;
     margin: 500px 100px 0 1500px;
     position: absolute;
-    padding: 0%;
 }
 
 #FirstDay{
-
     float: right;
     padding: 2%;
 }
@@ -141,7 +109,6 @@ ul.horizontal{
 #Members{
     padding: 2%;
     float: left;
-
 }
 
 .Caption{
@@ -150,13 +117,9 @@ ul.horizontal{
     font-size: 13px;
 }
 
-
-
-
 #Portrait {
     float: left;
     margin: 25px 15px 0 0;
-
 }
 
 #AboutMe{
@@ -180,18 +143,22 @@ ul.horizontal{
     text-align: center;
 }
 
+.imageCenter{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%;
+}
+
 #FilmMain {
     text-align: center;
 }
-
-
 
 #College{
     text-decoration: underline;
     text-align: center;
 }
-
-
 
 #HSchool{
     text-decoration: underline;
@@ -199,11 +166,9 @@ ul.horizontal{
 }
 
 #FilmSociety{
-
     text-decoration: underline;
     text-align: center;
     font-size: 40px;
-
 }
 
 .slideRight{
@@ -239,9 +204,7 @@ ul.horizontal{
 @keyframes jumpUpDown {
     0%{
         transform: translateY(0px);
-
     }
-
     100%{
         transform: translateY(20px);
     }
@@ -249,47 +212,49 @@ ul.horizontal{
 
 .EducationParallax {
     background-image: url("./images/PKBanner.png");
-
     width: 100%;
     height: 80vh;
-
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-.container {
-    position: relative;
+.JavaContainer{
+    position: absolute;
     width: 50px;
-    margin: 0 0 0 920px;
+    margin-left: 45%;
+    margin-right: 10%;
 }
-.JavaContainer {
-     position: relative;
-     width: 50px;
-     margin: -50px 0 0 985px;
-}
-.CppContainer {
-    position: relative;
+.container{
+    position: absolute;
     width: 50px;
-    margin: -50px 0 0 1050px;
+    margin-left: 49%;
+    margin-right: 50%;
 }
-.VBContainer {
-    position: relative;
+.CppContainer{
+    position: absolute;
     width: 50px;
-    margin: 10px 0 0 1017px;
+    margin-left: 53%;
+    margin-right: 50%;
 }
-.SQLContainer {
-    position: relative;
+.VBContainer{
+    position: absolute;
     width: 50px;
-    margin: -50px 0 0 952px;
+    margin-left: 47%;
+    margin-right: 50%;
+}
+.SQLContainer{
+    position: absolute;
+    width: 50px;
+    margin-left: 51%;
+    margin-right: 50%;
 }
 
 .image{
     opacity: 1;
     display: block;
     width: 50px;
-    height: auto;
+    /*height: auto;*/
     transition: .5s ease;
     backface-visibility: hidden;
 }
@@ -350,6 +315,10 @@ ul.horizontal{
     color: white;
     font-size: 10px;
     padding: 5px 20px;
+}
+
+#Calibri{
+    font-family: Calibri;
 }
 
 
